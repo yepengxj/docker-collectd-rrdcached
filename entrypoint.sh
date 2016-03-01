@@ -1,7 +1,7 @@
 #!/bin/sh
 
-sed -i  's/#INFLUXDB_SERVER#/'$INFLUXDB_SERVER'/g' /etc/colletcd/collectd.conf
-sed -i  's/#INFLUXDB_PORT#/'$INFLUXDB_PORT'/g' /etc/colletcd/collectd.conf
+sed -i  's/#INFLUXDB_SERVER#/'$INFLUXDB_SERVER'/g' /etc/collectd/collectd.conf
+sed -i  's/#INFLUXDB_PORT#/'$INFLUXDB_PORT'/g' /etc/collectd/collectd.conf
 
 
 #mkdir -p /var/lib/rrdcached/journal
