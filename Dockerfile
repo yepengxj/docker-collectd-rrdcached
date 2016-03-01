@@ -13,7 +13,7 @@ ADD entrypoint.sh /entrypoint.sh
 #add docker collectd plugin
 #source code:https://github.com/yepengxj/docker-collectd-plugin.git 
 #source code:https://github.com/lebauce/docker-collectd-plugin.git
-ADD docker-collectd-plugin /
+ADD docker-collectd-plugin /docker-collectd-plugin
 
 RUN chmod a+x /entrypoint.sh
 
